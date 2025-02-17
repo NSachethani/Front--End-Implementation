@@ -1,0 +1,97 @@
+//Designed front end  immplementation in forum
+<View>
+       <Text></Text>
+      <Text style={styles.largeBoldText}>Community Forum</Text>
+      <Text> </Text>
+      <Text></Text>
+      <Text style={styles.largeBoldText2}>Announcements</Text>
+
+      <Text style= {styles.main}></Text>
+      <Text style= {styles.main}>   WELCOME  !!!! to our forum </Text>
+      <Text style= {styles.main}> <Text style= {styles.special}>BY USER 00002 </Text>posted 3 days ago</Text>
+      <Text style= {styles.main}>Posted by ADMIN #00001 1 day ago </Text>
+
+      <Text></Text>
+      <Text></Text>
+
+      <Text style={styles.largeBoldText2}>Title 01</Text> 
+      
+      <Text style= {styles.main}>Does anyone wants to share tips for Mindfull hobbies ?</Text>
+      <Text style= {styles.main}><Text style= {styles.special}>BY USER #0001 </Text>posted 2 days ago</Text>
+      
+      <Text style= {styles.main}>Any book recommondations for a Detox Period? </Text>
+      <Text style= {styles.main}> <Text style= {styles.special}>BY USER 00002</Text> posted 3 days ago</Text>
+      <Text></Text>
+      <Text></Text>
+
+  <Text style ={styles.largeBoldText2}>Title 02</Text>
+         <Text style= {styles.main}>Is there any way to export my Progress report?</Text>
+         <Text style= {styles.main}>Can I sync my data across multiple devices? </Text>
+      <Text style= {styles.main}> <Text style= {styles.special}>BY USER #00002 </Text>posted 5 minutes  ago</Text>
+      <Text></Text>
+      <Text></Text>
+
+      <Text style ={styles.largeBoldText2}>Title 03</Text>
+         <Text style= {styles.main}>by user #0001 posted 2 days ago</Text>
+         <Text style= {styles.main}>What mindfull activities help you the most during detox? </Text>
+      <Text style= {styles.main}> <Text style= {styles.special}>BY USER #00005 </Text>posted 2 weeks ago</Text>
+      <Text style= {styles.main}> Can anyone share the successfull stories of pause +?</Text>
+
+
+
+
+
+
+
+    </View>
+
+
+  )
+}
+
+export default forum;
+
+
+    
+
+
+     
+const styles = StyleSheet.create({
+  container: {
+    flex: 1,
+   
+    alignItems: 'center',
+    
+
+   
+  },
+  largeBoldText: {
+    fontSize: 24, // Large font size
+    fontWeight: 'bold', // Bold text
+    color: 'purple', // Dark text color
+    alignitems:'center',
+  },
+  largeBoldText2: {
+    fontSize: 18, // Large font size
+    fontWeight: 'bold', // Bold text
+    color: 'black', // Dark text color
+    backgroundColor: 'green',
+   
+  },
+main:{
+  backgroundColor:'#7388',
+  
+},
+special:{
+  color:'black',
+  fontSize:'17',
+},
+});
+
+
+export default forum;
+
+
+
+
+    
